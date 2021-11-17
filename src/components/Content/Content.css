@@ -1,0 +1,76 @@
+section{
+    display: flex;
+    flex-flow: row;
+    padding-top: 40px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.FormSection{
+    width: 56%;
+    padding-left: 4%;
+    min-height: 100px;
+}
+.SidebarSection{
+    width: 36%;
+    padding-right: 4%;
+    min-height: 100px;
+    margin-left: 20px;
+}
+.FlexBox{
+    display: flex;
+    margin: 20px 0 30px;
+}
+.FlexBox div{
+    width: 20%;
+    height: 170px;
+    margin-right: 5%;
+    background-color: #939393;
+}
+.InputBox input{
+    margin-right: 20px;
+}
+.NoPad{
+    padding: 0;
+}
+ul.list{
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    color: #7a7a7a;
+}
+ul.list li{
+    padding: 5px 0;
+    margin: 0;
+}
+.DropDown{
+    border: 1px solid #ebebeb;
+    padding: 3% 4%;
+    width: 100%;
+    margin: 10px 0 20px;
+    font-family: 'Circular Std Book';
+    color: #7a7a7a;
+}
+.TextArea{
+    border: 1px solid #ebebeb;
+    padding: 3% 4%;
+    width: 92%;
+    margin: 10px 0 20px;
+    height: 120px;
+    font-family: 'Circular Std Book';
+    color: #7a7a7a;
+}
+@media (max-width: 650px) {
+    section{
+        flex-flow: column; 
+    }
+    .FormSection {
+        width: 96%;
+        padding-left: 2%;
+    }
+    .SidebarSection {
+        width: 92%;
+        padding-right: 2%;
+    }
+    
+}

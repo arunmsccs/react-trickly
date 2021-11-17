@@ -1,0 +1,16 @@
+.Logo {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.Logo img {
+    height: 100%;
+    margin-right: 12px;
+    margin-top: 36px;
+}

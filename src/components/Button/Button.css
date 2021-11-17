@@ -1,0 +1,15 @@
+button{
+    background-color: #ff0005;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 10%;
+    height: 65px;
+    border: 0;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    button{
+        height: 30%;
+        padding: 5% 10%;
+    }
+}

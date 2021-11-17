@@ -1,0 +1,45 @@
+header{
+    height: 125px;
+    line-height: 125px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+header div{
+    width: 33.3%;
+    text-align: center;
+    justify-content: center;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: #7a7a7a;
+}
+header ul li{
+    margin: 0;
+    padding: 0 2%;
+    white-space: nowrap;
+}
+.Right{
+    text-align: right;
+}
+@media (max-width: 600px) {
+    header {
+        width: 94%;
+    }
+    header ul{
+        display: none;
+    }
+    button{
+        height: 50%;
+    }
+}
+@media (min-width: 601px) and  (max-width: 1000px) {
+    header{
+        width: 90%;
+    }
+}
+
+

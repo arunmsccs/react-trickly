@@ -1,0 +1,56 @@
+footer{
+    padding-top: 60px;
+    background-color: #111111;
+    color: #919191;
+}
+footer h3,
+footer h1{
+    color: #ffffff;
+}
+.FooterLogo{
+    margin-top: 20px;
+}
+.FooterLogo .Logo{
+    width: auto;
+    margin-left: 45%;
+}
+.FooterLogo .Logo img{
+    margin-top: 0;
+}
+.FooterContent{
+    display: flex;
+    flex-flow: row;
+}
+.FooterContent div {
+    padding: 75px 5%;
+    width: 30%;
+}
+.FooterContent div img{
+    margin-right: 10px;
+}
+.CopyRight{
+    border-top: 1px solid #1e1e1e;
+    padding: 30px 0 20px;
+    text-align: center;
+}
+
+@media (max-width: 650px) {
+    .FooterContent{
+        flex-flow: column;
+        text-align: center;
+       
+    }
+    .FooterContent div{
+        width: 80%;
+        padding: 30px 5%;
+    }
+    .FooterLogo .Logo{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 651px) and  (max-width: 1000px) {
+    .FooterLogo .Logo{
+        margin-left: 38%;
+    }
+}

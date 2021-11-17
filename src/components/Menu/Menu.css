@@ -1,0 +1,81 @@
+nav{
+    height: 80px;
+    line-height: 80px;
+    background-color: #222222;
+    display: flex;
+    padding: 0 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: #7a7a7a;
+    flex-flow: row;
+}
+nav ul li{
+    margin: 0;
+    padding: 0 25px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+nav ul li:hover{
+    color: #ffffff;
+}
+.NavContainer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+}
+.Social{
+    text-align: right;
+    width: 25%;
+    cursor: pointer;
+}
+.MenuIcon{
+    width: 16%;
+}
+@media (max-width: 700px) {
+    .NavContainer{
+        flex-flow: column;
+    }
+    nav{
+        height: auto;
+    }
+    nav ul {
+        flex-flow: column;
+    }
+    nav ul li{
+        padding: 0;
+        line-height: 40px;
+    }
+    .Menu,
+    .Social {
+        display: none;
+    }
+    .Mobile .Menu,
+    .Mobile .Social{
+        display: flex; 
+    }
+    .Mobile .Social{
+        margin: 20px 0;
+    }
+    .MenuIcon{
+        cursor: pointer;
+    }
+}
+@media (min-width: 700px) and  (max-width: 1000px) {
+    nav ul li{
+        padding: 0 12px;
+    }
+    .NavContainer{
+        width: 100%;
+    }
+    .MenuIcon{
+        width: 10%;
+    }
+    .Social img{
+        width: 140px;
+    }
+}
